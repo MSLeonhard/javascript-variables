@@ -13,3 +13,13 @@ const circleStatement = `The area of a circle with a radius of ${userNumber} wou
 document.querySelector('h1').innerHTML = squareStatement
 
 document.querySelector('h2').innerHTML = circleStatement
+
+const width = prompt("Give me a width.")
+
+const height = prompt("Give me a height.")
+
+const rectangle = width * height
+
+const rectangleStatement = `The area of a rectangle with a width of ${width} and a height of ${height} would have an area of ${rectangle}`
+
+document.querySelector('h3').innerHTML = rectangleStatement
